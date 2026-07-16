@@ -18,8 +18,7 @@ jobs:
       
       - name: Verify lock file exists
         run: ls -la package-lock.json
-        working-directory: privacy-browser
-      
+        
       - name: Setup Rust
         uses: dtolnay/rust-toolchain@stable
         with:
