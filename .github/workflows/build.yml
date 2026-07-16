@@ -3,7 +3,7 @@ name: Build Onyx Browser
 on:
   push:
     branches: [main]
-  workflow_dispatch:  # Manual trigger from GitHub UI
+  workflow_dispatch:
 
 jobs:
   build-windows:
@@ -26,7 +26,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '24'
-          # Disable built-in npm cache - we use actions/cache below
+          # Disable built-in npm cache
+        # Explicitly set working directory for this step
+        working-directory: privacy-browser
           
       - name: Cache npm dependencies
         uses: actions/cache@v4
