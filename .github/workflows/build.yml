@@ -16,6 +16,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
+      - name: Verify lock file exists
+        run: ls -la package-lock.json
+        working-directory: privacy-browser
+      
       - name: Setup Rust
         uses: dtolnay/rust-toolchain@stable
         with:
@@ -26,7 +30,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '24'
-          # Disable built-in npm cache
           cache: 'none'
         working-directory: privacy-browser
           
