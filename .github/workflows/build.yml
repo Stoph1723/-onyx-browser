@@ -26,7 +26,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '24'
-          cache: ''  # Disable built-in npm cache - we use actions/cache explicitly
+          # Disable built-in npm cache
+          cache: 'none'
         working-directory: privacy-browser
           
       - name: Cache npm dependencies
