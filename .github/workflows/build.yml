@@ -16,6 +16,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
+      - name: Debug - List all files at root
+        shell: pwsh
+        run: |
+          Write-Host "=== ROOT DIRECTORY ==="
+          Get-ChildItem -Force
+          Write-Host "=== RECURSIVE (first 50) ==="
+          Get-ChildItem -Recurse | Select-Object -First 50
+      
+      - name: Debug - List privacy-browser files
+        shell: pwsh
+        run: |
+          Write-Host "=== PRIVACY-BROWSER ==="
+          Get-ChildItem -Path privacy-browser -Force
+          Write-Host "=== PRIVACY-BROWSER RECURSIVE ==="
+          Get-ChildItem -Path privacy-browser -Recurse | Select-Object -First 50
+      
       - name: Verify lock file exists
         run: ls -la package-lock.json
         
