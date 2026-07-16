@@ -1,0 +1,638 @@
+{
+  "name": "Onyx",
+  "short_name": "Onyx",
+  "description": "A privacy-first browser with built-in ad blocking, fingerprinting protection, and local AI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d0d0d",
+  "theme_color": "#00d4aa",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "onyx-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "onyx-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "onyx-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "onyx-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "onyx-152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "onyx-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "onyx-384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "onyx-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["utilities", "productivity", "security"],
+  "shortcuts": [
+    {
+      "name": "New Private Tab",
+      "short_name": "Private Tab",
+      "description": "Open a new private browsing tab",
+      "url": "/?private=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Tab",
+      "short_name": "New Tab",
+      "description": "Open a new tab",
+      "url": "/?newtab=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings",
+      "short_name": "Settings",
+      "description": "Open Onyx settings",
+      "url": "/?settings=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "productivity", "security"],
+  "shortcuts": [
+    {
+      "name": "New Private Tab",
+      "short_name": "Private Tab",
+      "description": "Open a new private browsing tab",
+      "url": "/?private=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Tab",
+      "short_name": "New Tab",
+      "description": "Open a new tab",
+      "url": "/?newtab=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings",
+      "short_name": "Settings",
+      "description": "Open Onyx settings",
+      "url": "/?settings=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "productivity", "security"],
+  "shortcuts": [
+    {
+      "name": "New Private Tab",
+      "short_name": "Private Tab",
+      "description": "Open a new private browsing tab",
+      "url": "/?private=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Tab",
+      "short_name": "New Tab",
+      "description": "Open a new tab",
+      "url": "/?newtab=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings",
+      "short_name": "Settings",
+      "description": "Open Onyx settings",
+      "url": "/?settings=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "productivity", "security"],
+  "shortcuts": [
+    {
+      "name": "New Private Tab",
+      "short_name": "Private Tab",
+      "description": "Open a new private browsing tab",
+      "url": "/?private=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Tab",
+      "short_name": "New Tab",
+      "description": "Open a new tab",
+      "url": "/?newtab=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings",
+      "short_name": "Settings",
+      "description": "Open Onyx settings",
+      "url": "/?settings=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "productivity", "security"],
+  "shortcuts": [
+    {
+      "name": "New Private Tab",
+      "short_name": "Private Tab",
+      "description": "Open a new private browsing tab",
+      "url": "/?private=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Tab",
+      "short_name": "New Tab",
+      "description": "Open a new tab",
+      "url": "/?newtab=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings",
+      "short_name": "Settings",
+      "description": "Open Onyx settings",
+      "url": "/?settings=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "productivity", "security"],
+  "shortcuts": [
+    {
+      "name": "New Private Tab",
+      "short_name": "Private Tab",
+      "description": "Open a new private browsing tab",
+      "url": "/?private=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Tab",
+      "short_name": "New Tab",
+      "description": "Open a new tab",
+      "url": "/?newtab=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings",
+      "short_name": "Settings",
+      "description": "Open Onyx settings",
+      "url": "/?settings=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "productivity", "security"],
+  "shortcuts": [
+    {
+      "name": "New Private Tab",
+      "short_name": "Private Tab",
+      "description": "Open a new private browsing tab",
+      "url": "/?private=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Tab",
+      "short_name": "New Tab",
+      "description": "Open a new tab",
+      "url": "/?newtab=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings",
+      "short_name": "Settings",
+      "description": "Open Onyx settings",
+      "url": "/?settings=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "productivity", "security"],
+  "shortcuts": [
+    {
+      "name": "New Private Tab",
+      "short_name": "Private Tab",
+      "description": "Open a new private browsing tab",
+      "url": "/?private=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Tab",
+      "short_name": "New Tab",
+      "description": "Open a new tab",
+      "url": "/?newtab=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings",
+      "short_name": "Settings",
+      "description": "Open Onyx settings",
+      "url": "/?settings=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "productivity", "security"],
+  "shortcuts": [
+    {
+      "name": "New Private Tab",
+      "short_name": "Private Tab",
+      "description": "Open a new private browsing tab",
+      "url": "/?private=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Tab",
+      "short_name": "New Tab",
+      "description": "Open a new tab",
+      "url": "/?newtab=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings",
+      "short_name": "Settings",
+      "description": "Open Onyx settings",
+      "url": "/?settings=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "productivity", "security"],
+  "shortcuts": [
+    {
+      "name": "New Private Tab",
+      "short_name": "Private Tab",
+      "description": "Open a new private browsing tab",
+      "url": "/?private=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Tab",
+      "short_name": "New Tab",
+      "description": "Open a new tab",
+      "url": "/?newtab=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings",
+      "short_name": "Settings",
+      "description": "Open Onyx settings",
+      "url": "/?settings=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "productivity", "security"],
+  "shortcuts": [
+    {
+      "name": "New Private Tab",
+      "short_name": "Private Tab",
+      "description": "Open a new private browsing tab",
+      "url": "/?private=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Tab",
+      "short_name": "New Tab",
+      "description": "Open a new tab",
+      "url": "/?newtab=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings",
+      "short_name": "Settings",
+      "description": "Open Onyx settings",
+      "url": "/?settings=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "productivity", "security"],
+  "shortcuts": [
+    {
+      "name": "New Private Tab",
+      "short_name": "Private Tab",
+      "description": "Open a new private browsing tab",
+      "url": "/?private=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Tab",
+      "short_name": "New Tab",
+      "description": "Open a new tab",
+      "url": "/?newtab=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings",
+      "short_name": "Settings",
+      "description": "Open Onyx settings",
+      "url": "/?settings=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "productivity", "security"],
+  "shortcuts": [
+    {
+      "name": "New Private Tab",
+      "short_name": "Private Tab",
+      "description": "Open a new private browsing tab",
+      "url": "/?private=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Tab",
+      "short_name": "New Tab",
+      "description": "Open a new tab",
+      "url": "/?newtab=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings",
+      "short_name": "Settings",
+      "description": "Open Onyx settings",
+      "url": "/?settings=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "productivity", "security"],
+  "shortcuts": [
+    {
+      "name": "New Private Tab",
+      "short_name": "Private Tab",
+      "description": "Open a new private browsing tab",
+      "url": "/?private=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Tab",
+      "short_name": "New Tab",
+      "description": "Open a new tab",
+      "url": "/?newtab=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings",
+      "short_name": "Settings",
+      "description": "Open Onyx settings",
+      "url": "/?settings=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "productivity", "security"],
+  "shortcuts": [
+    {
+      "name": "New Private Tab",
+      "short_name": "Private Tab",
+      "description": "Open a new private browsing tab",
+      "url": "/?private=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Tab",
+      "short_name": "New Tab",
+      "description": "Open a new tab",
+      "url": "/?newtab=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings",
+      "short_name": "Settings",
+      "description": "Open Onyx settings",
+      "url": "/?settings=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "productivity", "security"],
+  "shortcuts": [
+    {
+      "name": "New Private Tab",
+      "short_name": "Private Tab",
+      "description": "Open a new private browsing tab",
+      "url": "/?private=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Tab",
+      "short_name": "New Tab",
+      "description": "Open a new tab",
+      "url": "/?newtab=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings",
+      "short_name": "Settings",
+      "description": "Open Onyx settings",
+      "url": "/?settings=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "productivity", "security"],
+  "shortcuts": [
+    {
+      "name": "New Private Tab",
+      "short_name": "Private Tab",
+      "description": "Open a new private browsing tab",
+      "url": "/?private=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Tab",
+      "short_name": "New Tab",
+      "description": "Open a new tab",
+      "url": "/?newtab=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings",
+      "short_name": "Settings",
+      "description": "Open Onyx settings",
+      "url": "/?settings=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "productivity", "security"],
+  "shortcuts": [
+    {
+      "name": "New Private Tab",
+      "short_name": "Private Tab",
+      "description": "Open a new private browsing tab",
+      "url": "/?private=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Tab",
+      "short_name": "New Tab",
+      "description": "Open a new tab",
+      "url": "/?newtab=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings",
+      "short_name": "Settings",
+      "description": "Open Onyx settings",
+      "url": "/?settings=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "productivity", "security"],
+  "shortcuts": [
+    {
+      "name": "New Private Tab",
+      "short_name": "Private Tab",
+      "description": "Open a new private browsing tab",
+      "url": "/?private=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Tab",
+      "short_name": "New Tab",
+      "description": "Open a new tab",
+      "url": "/?newtab=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings",
+      "short_name": "Settings",
+      "description": "Open Onyx settings",
+      "url": "/?settings=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "productivity", "security"],
+  "shortcuts": [
+    {
+      "name": "New Private Tab",
+      "short_name": "Private Tab",
+      "description": "Open a new private browsing tab",
+      "url": "/?private=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Tab",
+      "short_name": "New Tab",
+      "description": "Open a new tab",
+      "url": "/?newtab=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings",
+      "short_name": "Settings",
+      "description": "Open Onyx settings",
+      "url": "/?settings=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "productivity", "security"],
+  "shortcuts": [
+    {
+      "name": "New Private Tab",
+      "short_name": "Private Tab",
+      "description": "Open a new private browsing tab",
+      "url": "/?private=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Tab",
+      "short_name": "New Tab",
+      "description": "Open a new tab",
+      "url": "/?newtab=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings",
+      "short_name": "Settings",
+      "description": "Open Onyx settings",
+      "url": "/?settings=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "productivity", "security"],
+  "shortcuts": [
+    {
+      "name": "New Private Tab",
+      "short_name": "Private Tab",
+      "description": "Open a new private browsing tab",
+      "url": "/?private=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Tab",
+      "short_name": "New Tab",
+      "description": "Open a new tab",
+      "url": "/?newtab=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings",
+      "short_name": "Settings",
+      "description": "Open Onyx settings",
+      "url": "/?settings=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "productivity", "security"],
+  "shortcuts": [
+    {
+      "name": "New Private Tab",
+      "short_name": "Private Tab",
+      "description": "Open a new private browsing tab",
+      "url": "/?private=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Tab",
+      "short_name": "New Tab",
+      "description": "Open a new tab",
+      "url": "/?newtab=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings",
+      "short_name": "Settings",
+      "description": "Open Onyx settings",
+      "url": "/?settings=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "productivity", "security"],
+  "shortcuts": [
+    {
+      "name": "New Private Tab",
+      "short_name": "Private Tab",
+      "description": "Open a new private browsing tab",
+      "url": "/?private=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Tab",
+      "short_name": "New Tab",
+      "description": "Open a new tab",
+      "url": "/?newtab=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings",
+      "short_name": "Settings",
+      "description": "Open Onyx settings",
+      "url": "/?settings=true",
+      "icons": [{ "src": "onyx-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "productivity", "security"]
+}
