@@ -9,6 +9,9 @@ jobs:
   build-windows:
     runs-on: windows-latest
     timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: privacy-browser
     
     steps:
       - uses: actions/checkout@v4
@@ -22,8 +25,16 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'npm'
+          node-version: '24'
+          # Disable built-in npm cache - we use actions/cache below
+          
+      - name: Cache npm dependencies
+        uses: actions/cache@v4
+        with:
+          path: privacy-browser/node_modules
+          key: ${{ runner.os }}-npm-${{ hashFiles('privacy-browser/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
           
       - name: Install Tauri CLI
         run: cargo install tauri-cli --locked
@@ -38,5 +49,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: onyx-browser-windows
-          path: src-tauri/target/release/bundle/msi/*.msi
+          path: privacy-browser/src-tauri/target/release/bundle/msi/*.msi
           retention-days: 30
